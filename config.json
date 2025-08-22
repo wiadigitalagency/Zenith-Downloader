@@ -1,0 +1,26 @@
+{
+  "general": {
+    "app_name": "Zenith Downloader",
+    "author": "WIA Digital",
+    "config_file_name": "zenith_config.json"
+  },
+  "downloader": {
+    "quality_options": [
+      "1080p (Best Video)",
+      "720p",
+      "480p",
+      "360p",
+      "Audio Only (MP3)"
+    ],
+    "manual_mode_url_limit": 5,
+    "bulk_mode_file": "links.txt",
+    "default_output_path": "downloads",
+    "video_subdirectory": "Video",
+    "audio_subdirectory": "Audio"
+  },
+  "ui_text": {
+    "title_manual_mode": ">> ENTER TARGET URLS / PLAYLISTS (MAX %d) <<",
+    "title_bulk_mode": ">> BULK MODE ENGAGED (PLAYLISTS SUPPORTED) <<",
+    "bulk_mode_label": "Bulk Mode (from %s)"
+  }
+}
